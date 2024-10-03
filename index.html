@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script> <!-- Google Charts -->
+    <script src="https://d3js.org/d3.v6.min.js"></script> <!-- D3.js -->
+</head>
+<body>
+    <h1>Stock Market Analysis</h1>
+
+    <!-- Candlestick Chart -->
+    <h2>Candlestick Chart (Real-time Stock Price Fluctuations)</h2>
+    <div id="candlestick_chart" class="chart"></div>
+
+    <h2>Line Chart (Real-time Stock Price Fluctuations)</h2>
+    <div id="line_chart" style="width: 900px; height: 500px;"></div>
+
+    <!-- Area Chart -->
+    <h2>Area Chart (Historical Stock Price Trends)</h2>
+    <div id="area_chart" class="chart"></div>
+
+    <!-- Scatter Plot -->
+    <h2>Scatter Plot (Volume vs. Price)</h2>
+    <div id="scatter_chart" class="chart"></div>
+
+    <script src="App.js"></script>
+</body>
+</html>
+
